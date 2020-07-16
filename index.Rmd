@@ -1,7 +1,7 @@
 ---
-title: '**Country Report : Norway**'
-author: "Victor Dépré / Skema Business School"
-date: "03/20/2020"
+title: '**Norway’s economy and its impact on the country**'
+author: "Victor Dépré / Skema Business School student"
+date: "07/16/2020"
 output:
   html_document:
     toc: 2
@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ---
 
-# Introduction
+# **Introduction**
 
 ---
 
@@ -30,25 +30,25 @@ Norway is a very interesting country that is quite exemplary and could inspire m
 
 * Historically, Norway has long been one of the poorest countries in Europe, but the very interesting development of this country has made it today a rich country with a very high standard of living and well-being. With an HDI of 0.954 in 2018, Norway defies all competition and is in pole position worldwide. Add to this the ecological awareness of its citizens, which has made Norway one of the precursors of the ecological transition and we have a country that is more than exemplary, both economically and socially as well as environmentally.
 
-* Norway’s economy, since the beginning of the industrial revolution, has shown solid growth. The transport of goods is an important part of Norway’s exportations, but economic growth is also largely due to the abundance of natural resources in the country such as oil and hydroelectricity. The exploitation of its oil resources accounts for half of the total value of its exports. Agriculture and heavy industry are declining relative to the service and oil sectors. Moreover, its public sector is one of the largest in the world in relation to its GDP.
+* Norway’s economy, since the beginning of the industrial revolution, has shown solid growth. The transport of goods is an important part of Norway’s exports, but economic growth is also largely due to the abundance of natural resources in the country such as oil and hydroelectricity. The exploitation of its oil resources accounts for half of the total value of its exports. Agriculture and heavy industry are declining relative to the service and oil sectors. Moreover, its public sector is one of the largest in the world in relation to its GDP.
 
 * On top of that Norway is a very environmentally committed country. For example, last June Norway announced that the sale of petrol cars would be banned by 2025. The country is already among the European countries offering the most tax incentives for buying electric cars. Norway has also become the first country to ban deforestation. Public procurement will now have to exclude any offer from a company whose products may have contributed to deforestation. The Norwegian Parliament has announced that the country will aim for carbon neutrality by 2030, 20 years ahead of the target of reducing net greenhouse gas emissions, which are responsible for global warming, to zero and nearly all of the country’s electricity production is already clean, since it is hydroelectric.
 
 
 **Outline**
 
-* **Part 1** : Economic Analysis.
+* **Part 1** : An unusual economy.
 
-* **Part 2** : Social Analysis.
+* **Part 2** : Its impact on the social area.
 
-* **Part 3** : Environmental Analysis.
+* **Part 3** : A pioneering country in terms of ecology .
 
-* **Part 4** : Demographic Analysis.
+* **Part 4** : An unevenly distributed population.
 
 
 ---------------
 
-# **Economic Analysis**
+# **An unusual economy**
 
 --------------------
 
@@ -77,7 +77,7 @@ Nevertheless, the significant drop in oil prices in 2014 recalls that Norway is 
 
 ---------------
 
-Exploitation of Norway’s vast oil and gas reserves has been far and away the biggest contributor to the Norwegian economy since they were first discovered in the 1960s. The country generates almost 98% of its electricity from hydropower so most of the oil and gas is exported overseas and that's why it represents around 20% of Norway's economy. 
+Exploitation of Norway’s vast oil and gas reserves has been far and away the biggest contributor to the Norwegian economy since they were first discovered in the 1960s. The country generates almost 98% of its electricity from hydropower so most of the oil and gas is exported overseas and that's why it represents around 20% of Norway's economy as can be seen on the graph.
 
 One of the challenges for the Norwegian government will be how to manage the economic transition after the depletion of oil and gas resources. There are still huge reserves in the Barents Sea, but they are located in the Arctic Circle, which means that access to them is considered more difficult and more dangerous for the environment.
 
@@ -123,7 +123,9 @@ DynagraphPNBPC
 ---------------
 
 
-The balance of trade in goods and services is the difference between exports of goods and services and imports of goods and services, expressed in dollars. A positive balance indicates that exports exceed imports in value (trade surplus). A negative balance, on the contrary, indicates that imports exceed exports in value (trade deficit). The statistics relate this balance to the size of economic activity (GDP). We can see on the graph below that the trade balance reached its maximum in 2008 before the crisis. The crisis has had an important impact on the country's exportations since 2008 : exports have almost only fallen except in 2011 and 2012.
+The balance of trade in goods and services is the difference between exports of goods and services and imports of goods and services, expressed in dollars. A positive balance indicates that exports exceed imports in value (trade surplus). A negative balance, on the contrary, indicates that imports exceed exports in value (trade deficit). The statistics relate this balance to the size of economic activity (GDP). We can see on the graph below that the trade balance reached its maximum in 2008 before the crisis. The crisis has had an important impact on the country's exports since 2008 : exports have almost only fallen except in 2011 and 2012 thanks to the return of oil exports.
+
+The increase in the trade balance in 2017 and 2018 is explained by the appreciation of the price of Brent oil prices in 2017. It is also due to the good health of manufactured products, which enabled exports to grow by around 12% compared to 2016.
 
 ```{r include=FALSE}
 library(WDI)
@@ -159,7 +161,9 @@ DynagraphTB
 ---------------
 
 
-This is a map showing the GDP per region in Norway, it is immediately noticeable that the economy is concentrated in southern Norway. Moreover, the 4 regions with the highest GDP, Oslo, Akershus, Hordaland and Rogaland alone account for half of the country's GDP, which is around 300 billion euros.
+This is a map showing the GDP per region in Norway, it is immediately noticeable that the economy is concentrated in southern Norway. Moreover, the 4 regions with the highest GDP, Oslo, Akershus, Hordaland and Rogaland alone account for half of the country's GDP, which is around 300 billion euros. 
+
+This makes Norway a country with a very asymmetrical economy, which leads to unequal living standards between south and north. This imbalance can be easily seen on the unemployment map further bellow.
 
 ```{r warning=TRUE, include=FALSE}
 
@@ -247,7 +251,7 @@ DynagraphRK
 
 ---------------
 
-It can be seen from the graph below that overall Norway has very high scores, especially with regard to the integrity of the government. Nevertheless the greatest impediment to greater economic freedom in Norway is too much government spending. Reducing it will be difficult, however, because a large part of the economy and an even larger percentage of the government’s budget are structured around revenue from Equinor, the state-owned oil, gas, and wind-energy company.
+It can be seen from the graph below that overall Norway has very high scores, especially with regard to the integrity of the government. Nevertheless the greatest impediment to greater economic freedom in Norway is too much government spending. Reducing it will be difficult, however, because a large part of the economy and an even larger percentage of the government’s budget are structured around revenue from Equinor, a state-owned oil, gas, and wind-energy company.
 
 ```{r include=FALSE}
 
@@ -285,7 +289,7 @@ DynagraphEF
 
 ---------------
 
-# **Social Analysis**
+# **Impact on the social area**
 
 --------------------
 
@@ -311,7 +315,7 @@ Norway is definitely a part of Europe, but is not a member of the EU. However, t
 
 ---------------
 
-Relative to other high-income countries, Norway performs extremely well across various indicators of resident's well-being. Life expectancy at birth has increased by two years since 2005, and average life expectancy is now two years higher than the average for OECD countries. This position is in contrast to the United States, which has a life expectancy not as good as Norway and that's the reason why Norway is above the United States or countries like Finland or Germany. On this graph we can also see that well-being in China is rather low compared to other countries, but this is still correct compared to countries like South Sudan (country where well-being indicators are the lowest in the world).
+Relative to other high-income countries, Norway performs extremely well across various indicators of resident's well-being. Life expectancy at birth has increased by two years since 2005, and average life expectancy is now two years higher than the average for OECD countries. This position is in contrast to the United States, which has a life expectancy not as good as Norway and that's the reason why Norway is above the United States or countries like Finland or Germany. On this graph we can also see that well-being in China is rather low compared to other countries (mainly because of the insecurity and stress omnipresent in the population), but this is still correct compared to countries like South Sudan which is the country where well-being indicators are the lowest in the world.
 
 ```{r, include=FALSE}
 library(spiR)
@@ -349,7 +353,9 @@ graph1
 
 ---------------
 
-This map shows the unemployment rate in each Norwegian region. It shows that the share of the unemployed in the Norwegian labour force is very low (average 3.7%), especially since the regions with the highest rate are the least dense (see Density map). Moreover, according to International Monetary Fund estimates, the unemployment rate in Norway is expected to stabilise at 3.7% from 2020 onwards.
+This map shows the unemployment rate in each Norwegian region. It shows that the share of the unemployed in the Norwegian labour force is very low (average 3.7%), especially since the regions with the highest rate are the least dense (see Density map). Moreover, according to International Monetary Fund estimates, the unemployment rate in Norway is expected to stabilise at 3.7% from 2020 onwards which is really good. 
+
+There are two reasons for such a low unemployment rate: firstly, the country invests part of its oil revenues in a fund that it can use in times of crisis, and secondly, as Norway belongs neither to the euro zone nor to the European Union, it is not subject to the constraints of debt reduction. 
 
 ```{r warning=FALSE, include=FALSE}
 
@@ -402,7 +408,7 @@ All public hospitals in Norway are run by four Regional Health Authorities overs
 
 library(spiR)
 
-HWE <- sqs_spi_data(country = c("AUS", "DNK", "NOR", "NLD", "DEU", "ZWE", "SWE", "ESP", "FRA"), 
+HWE <- sqs_spi_data(country = c("AUS", "DNK", "NOR", "NLD", "DEU", "SWE", "ESP", "FRA"), 
                        year = c("2014","2015","2016", "2017", "2018", "2019"), 
                        indicators = "HWE")
 
@@ -440,7 +446,7 @@ The politics of Norway take place in the framework of a parliamentary, represent
 
 The Economist Intelligence Unit rated Norway a "full democracy" in 2019. Reporters Without Borders ranked Norway first in the world in the 2019 Press Freedom Index. On March 19, 2020, the Norwegian parliament voted to give the enormous emergency powers to the government. While this is in effect, the government can change any law except for the constitution and human rights legislation. These emergency powers are due to expire in December 2020. During this period Norway is operating with a partially combined executive and legislative branch.
 
-The graph shows that Norway is the best country having regard to political rights. Germany and France are just behind and countries like afghanistan or especially South Korea are still far behind.
+The graph shows that Norway is the best country having regard to political rights. Germany and France are just behind and as a comparison, countries like for example afghanistan or especially South Korea are still far behind.
 
 
 ```{r include=FALSE}
@@ -477,7 +483,7 @@ graph81
 
 ---------------
 
-# **Environmental Analysis**
+# **A pioneering country in terms of ecology**
 
 --------------------
 
@@ -499,7 +505,9 @@ A few months ago, the Norwegian parliament passed a law aimed at achieving a car
 
 ---------------
 
-Energy-related CO2 emissions in Norway are very low in comparisson to other countries. Because the energies used in the country are essentially renewable energies like hydropower. And we can see on the graph below that the majority of the countries are reducing their greenhouse gas emissions which is a great thing for the future.
+Energy-related CO2 emissions in Norway are very low in comparison to other countries. Because the energies used in the country are essentially renewable energies like hydropower. And we can see on the graph below that the majority of the countries are reducing their greenhouse gas emissions which is a great thing for the future. These low emissions are partly explained, for example, by the explosion of electric car sales in the country and the decline in sales of diesel cars for several years now.
+
+For more than twenty-five years, Norway has put in place a set of direct and indirect incentives that are very favorable to the development of electric mobility by applying the "polluter pays" strictly. It is one of the only countries in the world where an electric car is cheaper to buy than its thermal equivalent.
 
 ```{r, include=FALSE}
 
@@ -523,7 +531,7 @@ graph6 <- ggplot(EQU, aes(var_year, value, color = countryName)) +
   scale_x_log10() + theme(plot.subtitle = element_text(vjust = 1), 
     plot.caption = element_text(vjust = 1), 
     axis.text.y = element_text(size = 5)) +
-    theme(axis.text.y = element_text(size = 7)) + labs(title = "Greenhouse gas emissions") +labs(x = "Year", y = "Emissions") + labs(colour = NULL, size = NULL)
+    theme(axis.text.y = element_text(size = 7)) + labs(title = "Greenhouse gas emissions") +labs(x = "Year", y = "Emissions CO2 equivalents/GDP") + labs(colour = NULL, size = NULL)
 
 graph7 <- ggplotly(graph6)
 graph7
@@ -578,7 +586,7 @@ graph31
 
 ---------------
 
-# **Demographic Analysis**
+# **An unevenly distributed population**
 
 --------------------
 
@@ -775,13 +783,11 @@ q2
 
 ---------------
 
-# Conclusion
+# **Conclusion**
 
 --------------------
 
-Economically, Norway is a pretty stable country which has different leading sectors. But the country still very dependent of its Oil and Gas development which represents about 20% of its economy. The country has a positive trade balance, so even if the GDP is unevenly divided between the regions it shows the economical health of the country. Moreover the country has some great scores in what concerns economic freedom even if the government's budget is structured around the state-owned oil and gas company Equinor.
-
-Socially, Norway is an exemplary country. Well-being is abundant and the health system is working perfectly. On top of that there is very few unemployment in the country and Norway is the best country in the world in regards to political rights.
+Economically, Norway is a pretty stable country which has different leading sectors. But the country still very dependent of its Oil and Gas development which represents about 20% of its economy. The country has a positive trade balance, so even if the GDP is unevenly divided between the regions it shows the economical health of the country. Moreover the country has some great scores in what concerns economic freedom even if the government's budget is structured around the state-owned oil and gas company Equinor. Socially, Norway is an exemplary country. Well-being is abundant and the health system is working perfectly. On top of that there is very few unemployment in the country and Norway is the best country in the world in regards to political rights.
 
 Environmentally the country is really advanced with very few greenhouse gas emission in comparison to other developed countries and with an incredible average electricity quality which is due to the fact that the country is running almost exclusively with hydro power. However, the fact that the country's economy is relying on oil and gas exportation is a real downside which needs to be considered regarding the environmental aspect.
 
